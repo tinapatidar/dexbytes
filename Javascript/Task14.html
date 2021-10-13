@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //callback
+        function x(){
+        console.log("Tina");
+        setTimeout(function(){
+            console.log("hiiiii")
+        },2000);
+        console.log("mahi");
+        }
+      x();
+      //arrow  
+      function y(){
+        console.log("Tina arrrow");
+        setTimeout(()=>{
+            console.log("hiiiii arrow")
+        },2000);
+        console.log("mahi arrow");
+        }
+        y();
+    </script>
+</body>
